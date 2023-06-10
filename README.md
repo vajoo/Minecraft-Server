@@ -1,0 +1,1 @@
+start container with: docker-compose up -d --force-recreate

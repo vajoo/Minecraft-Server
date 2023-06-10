@@ -11,7 +11,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "BUKKIT"
-      OPS: "ButterNPants"
+      OPS: "vajo"
       ENABLE_WHITELIST: "TRUE"
       ENFORCE_WHITELIST: "TRUE"
     tty: true
