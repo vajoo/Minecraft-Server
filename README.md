@@ -11,3 +11,5 @@ backup every day at 0:00 and 12:00 and backups older than 7 days will be deleted
 load a backup: docker run –rm –volumes-from <container-name> -v /etc/scripts/Backups:/backup bash -c “cd /data && tar xvf /backup/<backupfile.tar> –strip 1”
 
 view logs in: /var/lib/docker/volumes/minecraftdata/_data/logs and decompress them with gzip -d <file> and compress with gzip <file>
+
+view live logs: watch -n 1 tail -25 latest.log

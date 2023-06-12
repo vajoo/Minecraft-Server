@@ -12,6 +12,7 @@ services:
       EULA: "TRUE"
       TYPE: "BUKKIT"
       OPS: "vajo"
+      MEMORY: "6G"
       ENABLE_WHITELIST: "TRUE"
       ENFORCE_WHITELIST: "TRUE"
     tty: true
