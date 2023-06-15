@@ -18,5 +18,4 @@ view logs in: /var/lib/docker/volumes/minecraftdata/_data/logs and decompress th
 
 view live logs: watch -n 1 tail -25 latest.log
 
-
 backup run as root: cp -R /var/lib/docker/volumes/minecraftdata/_data /home/pi/Minecraft/backups/

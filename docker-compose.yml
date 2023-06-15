@@ -12,7 +12,7 @@ services:
       EULA: "TRUE"
       TYPE: "BUKKIT"
       OPS: "vajo"
-      MEMORY: "6G"
+      MEMORY: "2G"
       ENABLE_WHITELIST: "TRUE"
       ENFORCE_WHITELIST: "TRUE"
       VERSION: "1.19.4"
