@@ -15,6 +15,7 @@ services:
       MEMORY: "6G"
       ENABLE_WHITELIST: "TRUE"
       ENFORCE_WHITELIST: "TRUE"
+      VERSION: "1.19.4"
     tty: true
     stdin_open: true
     restart: unless-stopped
